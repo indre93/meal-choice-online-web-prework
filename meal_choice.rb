@@ -2,6 +2,6 @@
 # passed into it and defaults to meat.
 
 
-def meal_choice(meal)
-  meal == "meat"
+def meal_choice(meal = meat)
+  puts #{meal}
 end
